@@ -1,10 +1,10 @@
 const puppeteer = require("puppeteer");
 const url = "https://pixai.art/login";
 // 因為 window 的 USERNAME 撞名
-const username = process.env.LOGINNAME ? process.env.LOGINNAME : undefined;
-const password = process.env.PASSWORD ? process.env.PASSWORD : undefined;
+const username = process.env.LOGINNAME ? process.env.LOGINNAME : qcakeman@gmail.com;
+const password = process.env.PASSWORD ? process.env.PASSWORD : 3366;
 // 如果需要在本地運行，請將這裡改成 false
-const isDocker = true;
+const isDocker = false;
 // 如果需要背景執行，請將 headless 設置為 true
 const headless = true;
 // 重試次數上限
